@@ -1,0 +1,19 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "A landing page built with Sass, JavaScript, Fetch-Method and, Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diegofergamboa/Landing-Page.git"
+  },
+  "author": "diegofergamboa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Diegofergamboa/Landing-Page/issues"
+  },
+  "homepage": "https://github.com/Diegofergamboa/Landing-Page#readme"
+}
