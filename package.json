@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Diegofergamboa/Landing-Page/issues"
   },
-  "homepage": "https://github.com/Diegofergamboa/Landing-Page#readme"
+  "homepage": "https://github.com/Diegofergamboa/Landing-Page#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
