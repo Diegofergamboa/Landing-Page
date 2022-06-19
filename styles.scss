@@ -1,30 +1,90 @@
-// Variables settings.
-
-// Setting the native variables.
-
-// Colors. 
-
-$theme-colors: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "success": $success,
-    "info": $info,
-    "warning": $warning,
-    "danger": $danger,
-    "light": $light,
-    "dark": $dark
-);
-
-// Others.
-
-$enable-shadows: true;
-$enable-gradients: true;
-$enable-transitions: true;
-$enable-button-pointers: true;
-$enable-smooth-scroll: true;
-
-
-
-
+// Imports
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary: #000;
+$secondary: #d5b992;
+$white: #ffffff;
+
+body {
+    background-color: #000;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #000;
+    height: 350px;
+}
+.navbar {
+    height: 80px;
+    width: 950px;
+    border-bottom: 1px solid #898383;
+}
+
+.navbar-brand {
+    border-bottom: #d5b992;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: $secondary !important;
+}
+
+.container-fluid {
+    margin-top: 16px;
+    height: 160px;
+    width: 950px;
+    padding: 0px;
+}
+.inicio-productos {
+    display: flex;
+    border-left: 2px solid #ffffff;
+    margin-bottom: 16px;
+    margin-left: 8px;
+}
+.inicio-productos a , .inicio-productos p {
+    color: #898383;
+    margin: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.container-fluid2 img {
+    margin-left: 16px;
+    padding-bottom: 30px;
+    border-bottom: 1px  dashed #ffffff;
+}
+
+.container-fluid3 {
+    width: 950px;
+    border-right: 1px solid #898383;
+}
+
+.Auxiliar-texto {
+    margin-left: 16px;
+    width: 346px;
+    margin-top: 16px;
+}
+
+.principal-content {
+    background-color: #ffffff;
+}
+
+
+
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+);
