@@ -1,1 +1,30 @@
+// Variables settings.
+
+// Setting the native variables.
+
+// Colors. 
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark
+);
+
+// Others.
+
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-transitions: true;
+$enable-button-pointers: true;
+$enable-smooth-scroll: true;
+
+
+
+
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
