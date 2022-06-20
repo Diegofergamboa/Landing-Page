@@ -76,7 +76,12 @@ header {
     background-color: #ffffff;
 }
 
-
+.container-1 {
+    position: relative;
+}
+.imagen-fondo {
+    position: absolute;
+}
 
 $theme-colors: (
     "primary":    $primary,
