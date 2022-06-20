@@ -11118,10 +11118,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: #000;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -11205,7 +11201,7 @@ header {
 }
 
 .imagen-fondo1 {
-  z-index: 3;
+  z-index: 2;
 }
 
 .imagen-fondo2 {
@@ -11213,9 +11209,24 @@ header {
 }
 
 .imagen-fondo3 {
-  z-index: 2;
+  z-index: 4;
 }
 
 .imagen-fondo4 {
-  z-index: 4;
+  z-index: 3;
+}
+
+.container2 {
+  width: inherit;
+  height: 100px;
+}
+
+.text-uppercase {
+  word-spacing: 2rem;
+  font-size: 2rem;
+  margin-left: 125px;
+}
+
+.figure-img {
+  margin-right: 20px;
 }/*# sourceMappingURL=styles.css.map */
