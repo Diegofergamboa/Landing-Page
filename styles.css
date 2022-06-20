@@ -11190,4 +11190,32 @@ header {
 
 .principal-content {
   background-color: #ffffff;
+}
+
+.container-1 {
+  position: static;
+  width: auto;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.imagen-fondo1 {
+  z-index: 3;
+}
+
+.imagen-fondo2 {
+  z-index: 1;
+}
+
+.imagen-fondo3 {
+  z-index: 2;
+}
+
+.imagen-fondo4 {
+  z-index: 4;
 }/*# sourceMappingURL=styles.css.map */
