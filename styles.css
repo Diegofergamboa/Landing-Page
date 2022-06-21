@@ -11240,7 +11240,7 @@ header {
   width: 400px;
   max-width: 450px;
   position: relative;
-  left: 13rem;
+  left: 25%;
 }
 
 .container-phone-text :nth-child(1) {
@@ -11259,11 +11259,17 @@ header {
   background-size: cover;
   background-position: center;
   max-width: 1300px;
+  min-width: 500px;
 }
 
 .container-images {
   margin-left: 0;
   padding: 0;
+}
+
+.figure-into-banner {
+  top: 50px;
+  left: 15px;
 }
 
 .title-newsletter {
@@ -11349,7 +11355,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   outline: none;
 }/*# sourceMappingURL=styles.css.map */
