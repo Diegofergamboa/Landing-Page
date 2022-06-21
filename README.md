@@ -54,6 +54,9 @@ npm install bootstrap@5.2.0 {
 }
 
 
-# Example
+# Example 1st part.
+![Captura de Pantalla 2022-06-21 a la(s) 10 21 36 a m](https://user-images.githubusercontent.com/72028938/174837293-ca8fc178-395c-4c0c-b577-14174be9dc32.png)
 
 
+# Example 2td part.
+![Captura de Pantalla 2022-06-21 a la(s) 10 23 30 a m](https://user-images.githubusercontent.com/72028938/174837510-be91d07f-c617-4008-9f64-3091d8c89688.png)
