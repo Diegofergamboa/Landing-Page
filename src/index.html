@@ -8,12 +8,12 @@
     <!-- Bootstrap CSS -->
     <link href="../styles.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>La Marca</title>
 </head>
 <body>
-    <header position-fixed>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-light navbar-text navbar navbar-dark bg-black">
-            <div class="container-fluid ">
+    <header class="container row ">
+        <nav class="container navbar sticky-sm-top sticky-top navbar-expand-lg bg-dark navbar-text navbar bg-black">
+            <div class="container">
                 <img src="../assets/logo.png" class="navbar-brand" alt="Logotipo de la marca"></img>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,9 +34,20 @@
                     </li>
                 </ul>
                 </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-brand">
+                        <img class="fa fa-facebook"></i>
+                    </button>
+                    <button type="button" class="btn btn-brand">
+                        <img class="fa fa-instagram"></i>
+                    </button>
+                    <button type="button" class="btn btn-brand">
+                        <img class="fa fa-youtube"></i>
+                    </button>
+                </div>
             </div>
         </nav>
-        <div class="container-fluid container-fluid2 bg-black">
+        <div class="container container-fluid2 bg-black">
             <div class="inicio-productos">
                 <a href="">Inicio </a>
                 <p>/</p>
@@ -80,10 +91,64 @@
             <p class="text-muted font-weight-thin mt-4 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nesciunt nostrum nulla, temporibus vel voluptas consequatur illo quas unde sit dolorum veniam molestias atque odit! Dolores quam distinctio repellat quia.</p>
         </div>
     </div>
-    <div class="container row">
-        <p class="display-1 text-muted text-capitalize ">Lorem ipsum dolor sit amet |</p>
-        <p class="text-muted font-weight-thin mt-4 " >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nesciunt nostrum nulla.</p>
-    </div>
+    <fieldset class="title-border container-fluid position-relative">
+        <legend class="text-muted mt-5 title-newsletter font-weight-normal">SUBSCRÍBETE A NUESTRO NEWSLETTER | </legend>
+        <p class="text-muted mt-1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nesciunt nostrum nulla.</p>
+    </fieldset>
+
+    <!-- Form -->
+    <div class="container-fluid justify-content-center" >
+        <form>
+        <div class="row mb-4">
+            <div class="col">
+                <div class="form-outline">
+                <input type="text" placeholder="NOMBRE" class="form-control interfaz-cell" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-outline">
+                <input type="text" placeholder="CORREO ELECTRÓNICO" class="form-control interfaz-cell" />
+                </div>
+        </div>
+        <div class="row mt-4">
+            <div class="form-group form-outline col">
+                <select class="form-control-select interfaz-cell" placeholder="TIPO DE DOCUMENTO" >
+                    <span></span>
+                    <option>CC</option>
+                    <option>CE</option>
+                    <option>ID Pasaporte</option>
+                    <option>TI</option>
+                </select>
+            </div>
+            <div class="col">
+                <div class="form-outline input-id">
+                <input type="text" placeholder="NÚMERO DE DOCUMENTO" type="number" class="form-control interfaz-cell" />
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 mb-4">
+            <div class="col">
+                <div class="form-outline ">
+                <input type="text" placeholder="TELÉFONO" type="number" class="form-control interfaz-cell" />
+                </div>
+            </div>            
+            <!-- Checkbox -->
+            <div class="form-check col d-flex justify-content-around">
+                <div class="d-flex align-self-center">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form5Example3" checked />
+                    <label class="form-check-label" for="form5Example3">
+                        Acepto términos y condiciones
+                    </label>
+                </div>
+                    <button type="submit" class="btn btn-default">SUBSCRIBIRME</button>
+            </div>
+        </div>
+        </form>
+    <footer class="bg-light footer">
+        <div class="bg-dark mb-4 p-5 text-white"> Todos los derechos reservados
+            © 2017
+        </div>
+        </footer>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.esm.min.js" ></script>
 </body>
 </html>

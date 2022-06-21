@@ -2,21 +2,23 @@
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
+
 $primary: #000;
 $secondary: #d5b992;
 $white: #ffffff;
 
+body {
+    display: grid;
+    justify-content: center;
+}
 header {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     align-content: center;
-    background-color: #000;
     height: 350px;
+    width: 100%;
 }
 .navbar {
     height: 80px;
-    width: 950px;
     border-bottom: 1px solid #898383;
 }
 
@@ -106,7 +108,6 @@ header {
 .settingtext {
     word-spacing: 2rem;
     font-size: 2rem;
-    margin-left: 125px;
 }
 .figure-img {
     margin-right: 20px;
@@ -129,18 +130,107 @@ header {
     height: 340px;
     padding: 0;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1300px;
 }
 .image-banner {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1400px;
+    max-width: 1300px;
 }
 .container-images {
     margin-left: 0;
     padding: 0;
 }
+.title-newsletter {
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.title-newsletter {
+    width: 100%;  
+    border-bottom: 1px solid #d5b992;
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+} 
+
+.title-newsletter span { 
+    background:#fff; 
+    padding:0 10px;
+    z-index: 0;
+}
+.title-border {
+    margin: 0 auto;
+}
+
+.form-control-select {
+    background-image: url('./assets/arrow.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 23.5rem;
+    background-size: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 3px;
+    text-indent: 0.75rem;
+    color: #898383;
+}
+.interfaz-cell {
+    background-color: #dcdcdd;
+    height: 40px;
+    width: 25rem;
+    min-width: 25rem;
+}
+
+.input-id {
+    margin-left: 0.75rem;
+}
+
+.form-check-label {
+    font-size: 0.75rem;
+    color: #898383;
+    text-decoration: underline;
+    align-self: center;
+}
+
+.btn-default {
+    background-color: #e0a44f;
+    border: #ea9115;
+    font-size: 1rem;
+    color: #898383;
+    width: 150px;
+    border-radius: 0;
+    margin-right: 8px;
+}
+
+.fa-facebook {
+    background-image: url('./assets/facebook.png');
+
+}
+
+.fa-instagram {
+    background-image: url('./assets/instagram.png');
+
+}
+
+.fa-youtube {
+    background-image: url('./assets/social.png');
+}
+
+.fa {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    outline: none;
+}
+
+
 $theme-colors: (
     "primary":    $primary,
     "secondary":  $secondary,
