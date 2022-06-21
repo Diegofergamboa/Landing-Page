@@ -103,7 +103,7 @@ header {
     height: 100px;
 }
 
-.text-uppercase {
+.settingtext {
     word-spacing: 2rem;
     font-size: 2rem;
     margin-left: 125px;
@@ -112,6 +112,35 @@ header {
     margin-right: 20px;
 }
 
+.image-container {
+    top: -250px;
+}
+
+.container-phone-text {
+    width: 400px;
+    max-width: 450px;
+    position: relative;
+    left: 13rem;
+}
+.container-phone-text :nth-child(1){
+    font-size: 2rem;
+}
+.container3 {
+    height: 340px;
+    padding: 0;
+    width: 100%;
+    max-width: 1400px;
+}
+.image-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1400px;
+}
+.container-images {
+    margin-left: 0;
+    padding: 0;
+}
 $theme-colors: (
     "primary":    $primary,
     "secondary":  $secondary,
